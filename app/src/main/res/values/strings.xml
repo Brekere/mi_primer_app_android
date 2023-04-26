@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Restaurantes</string>
+    <string name="txt_boton">Abrir</string>
+    <string name="otro_texto">Otra vista</string>
+    <string name="Restaurante_A">Restaurante A</string>
+    <string name="Restaurante_B">Restaurante B</string>
+    <string name="Restaurante_C">Restaurante C</string>
+    <string name="Restaurante_D">Restaurante D</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="comida_fragment">Comidas</string>
+    <string name="bebida_fragment">Bebidas</string>
+    <string name="complementos_fragment">Complementos</string>
+</resources>
