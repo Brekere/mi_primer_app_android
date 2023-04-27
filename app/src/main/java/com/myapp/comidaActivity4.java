@@ -37,19 +37,19 @@ public class comidaActivity4 extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
 
                 if(position==0){
-                    Intent intent = new Intent(comidaActivity4.this, ResActivity1.class);
+                    Intent intent = new Intent(comidaActivity4.this, comida1dActivity.class);
                     startActivity(intent);
                 }
                 if (position==1){
-                    Intent intent = new Intent(comidaActivity4.this, ResActivity2.class);
+                    Intent intent = new Intent(comidaActivity4.this, comida2dActivity.class);
                     startActivity(intent);
                 }
                 if (position==2){
-                    Intent intent = new Intent(comidaActivity4.this, ResActivity3.class);
+                    Intent intent = new Intent(comidaActivity4.this, comida3dActivity.class);
                     startActivity(intent);
                 }
                 if (position==3){
-                    Intent intent = new Intent(comidaActivity4.this, ResActivity4.class);
+                    Intent intent = new Intent(comidaActivity4.this, comida4dActivity.class);
                     startActivity(intent);
                 }
             }

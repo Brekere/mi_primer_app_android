@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -10,23 +10,71 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name=".complemento4dActivity"
+            android:exported="false"
+            android:label="Complemento 4 del Restaurante d"/>
+        <activity
+            android:name=".complemento3dActivity"
+            android:exported="false"
+            android:label="Complemento 3 del Restaurante d"/>
+        <activity
+            android:name=".complemento2dActivity"
+            android:exported="false"
+            android:label="Complemento 2 del Restaurante d"/>
+        <activity
+            android:name=".complemento1dActivity"
+            android:exported="false"
+            android:label="Complemento 1 del Restaurante d"/>
+        <activity
+            android:name=".bebida4dActivity"
+            android:exported="false"
+            android:label="Bebida 4 del Restaurante d" />
+        <activity
+            android:name=".bebida3dActivity"
+            android:exported="false"
+            android:label="Bebida 3 del Restaurante d" />
+        <activity
+            android:name=".bebida2dActivity"
+            android:exported="false"
+            android:label="Bebida 2 del Restaurante d" />
+        <activity
+            android:name=".bebida1dActivity"
+            android:exported="false"
+            android:label="Bebida 1 del Restaurante d" />
+        <activity
+            android:name=".comida4dActivity"
+            android:exported="false"
+            android:label="Comida 4 del Restaurante d" />
+        <activity
+            android:name=".comida3dActivity"
+            android:exported="false"
+            android:label="Comida 3 del Restaurante d" />
+        <activity
+            android:name=".comida2dActivity"
+            android:exported="false"
+            android:label="Comida 2 del Restaurante d" />
+        <activity
+            android:name=".comida1dActivity"
+            android:exported="false"
+            android:label="Comida 1 del Restaurante d" />
         <activity
             android:name=".complemento4cActivity"
             android:exported="false"
-            android:label="Complemento 4 del Restaurante c"/>
+            android:label="Complemento 4 del Restaurante c" />
         <activity
             android:name=".complemento3cActivity"
             android:exported="false"
-            android:label="Complemento 3 del Restaurante c"/>
+            android:label="Complemento 3 del Restaurante c" />
         <activity
             android:name=".complemento2cActivity"
             android:exported="false"
-            android:label="Complemento 2 del Restaurante c"/>
+            android:label="Complemento 2 del Restaurante c" />
         <activity
             android:name=".complemento1cActivity"
             android:exported="false"
-            android:label="Complemento 1 del Restaurante c"/>
+            android:label="Complemento 1 del Restaurante c" />
         <activity
             android:name=".bebida4cActivity"
             android:exported="false"
@@ -221,7 +269,7 @@
             android:label="@string/Restaurante_A" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

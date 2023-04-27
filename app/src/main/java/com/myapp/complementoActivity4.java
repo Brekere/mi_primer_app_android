@@ -38,19 +38,19 @@ public class complementoActivity4 extends AppCompatActivity {
                 /**Intent intent = new Intent(MainActivity.this, OtraActivity.class);
                  startActivity(intent);**/
                 if(position==0){
-                    Intent intent = new Intent(complementoActivity4.this, ResActivity1.class);
+                    Intent intent = new Intent(complementoActivity4.this, complemento1dActivity.class);
                     startActivity(intent);
                 }
                 if (position==1){
-                    Intent intent = new Intent(complementoActivity4.this, ResActivity2.class);
+                    Intent intent = new Intent(complementoActivity4.this, complemento2dActivity.class);
                     startActivity(intent);
                 }
                 if (position==2){
-                    Intent intent = new Intent(complementoActivity4.this, ResActivity3.class);
+                    Intent intent = new Intent(complementoActivity4.this, complemento3dActivity.class);
                     startActivity(intent);
                 }
                 if (position==3){
-                    Intent intent = new Intent(complementoActivity4.this, ResActivity4.class);
+                    Intent intent = new Intent(complementoActivity4.this, complemento4dActivity.class);
                     startActivity(intent);
                 }
             }
