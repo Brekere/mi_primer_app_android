@@ -12,17 +12,30 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".comida4aActivity"
+            android:exported="false" />
+        <activity
+            android:name=".comida3aActivity"
+            android:exported="false" />
+        <activity
+            android:name=".comida2aActivity"
+            android:exported="false" />
+        <activity
+            android:name=".comida1aActivity"
+            android:exported="false"
+            android:label="Comida 1 del Restaurante A" />
+        <activity
             android:name=".complementoActivity4"
             android:exported="false"
-            android:label="Complementos 4"/>
+            android:label="Complementos 4" />
         <activity
             android:name=".bebidaActivity4"
             android:exported="false"
-            android:label="Bebidas 4"/>
+            android:label="Bebidas 4" />
         <activity
             android:name=".comidaActivity4"
             android:exported="false"
-            android:label="Comidas 4"/>
+            android:label="Comidas 4" />
         <activity
             android:name=".complementoActivity3"
             android:exported="false"
