@@ -38,19 +38,19 @@ public class bebidaActivity1 extends AppCompatActivity {
                 /**Intent intent = new Intent(MainActivity.this, OtraActivity.class);
                  startActivity(intent);**/
                 if(position==0){
-                    Intent intent = new Intent(bebidaActivity1.this, ResActivity1.class);
+                    Intent intent = new Intent(bebidaActivity1.this, bebida1aActivity.class);
                     startActivity(intent);
                 }
                 if (position==1){
-                    Intent intent = new Intent(bebidaActivity1.this, ResActivity2.class);
+                    Intent intent = new Intent(bebidaActivity1.this, bebida2aActivity.class);
                     startActivity(intent);
                 }
                 if (position==2){
-                    Intent intent = new Intent(bebidaActivity1.this, ResActivity3.class);
+                    Intent intent = new Intent(bebidaActivity1.this, bebida3aActivity.class);
                     startActivity(intent);
                 }
                 if (position==3){
-                    Intent intent = new Intent(bebidaActivity1.this, ResActivity4.class);
+                    Intent intent = new Intent(bebidaActivity1.this, bebida4aActivity.class);
                     startActivity(intent);
                 }
             }
