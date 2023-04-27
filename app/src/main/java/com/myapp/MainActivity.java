@@ -33,8 +33,7 @@ public class MainActivity extends AppCompatActivity {
         Restaurantes.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                /**Intent intent = new Intent(MainActivity.this, OtraActivity.class);
-                startActivity(intent);**/
+
                 if(position==0){
                     Intent intent = new Intent(MainActivity.this, ResActivity1.class);
                     startActivity(intent);

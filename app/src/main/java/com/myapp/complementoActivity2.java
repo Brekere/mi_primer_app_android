@@ -13,26 +13,26 @@ import android.widget.ListView;
 
 public class complementoActivity2 extends AppCompatActivity {
 
-    private ListView complemento1;
+    private ListView complemento2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_complemento2);
 
-        complemento1 = (ListView) findViewById(R.id.complemento2);
+        complemento2 = (ListView) findViewById(R.id.complemento2);
 
         String items[]=new String[4];
-        items[0]="complemento1 A";
-        items[1]="complemento1 B";
-        items[2]="complemento1 C";
-        items[3]="complemento1 D";
+        items[0]="complemento2 A";
+        items[1]="complemento2 B";
+        items[2]="complemento2 C";
+        items[3]="complemento2 D";
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,items);
 
-        complemento1.setAdapter(adapter);
+        complemento2.setAdapter(adapter);
 
-        complemento1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        complemento2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
 
