@@ -12,17 +12,29 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
-            android:label="Complementos1"
+            android:name=".complementoActivity2"
+            android:exported="false"
+            android:label="Complementos 2"/>
+        <activity
+            android:name=".bebidaActivity2"
+            android:exported="false"
+            android:label="Bebidas 2"/>
+        <activity
+            android:name=".comidaActivity2"
+            android:exported="false"
+            android:label="Comidas 2"/>
+        <activity
             android:name=".complementoActivity1"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Complementos 1" />
         <activity
-            android:label="Bebidas1"
             android:name=".bebidaActivity1"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Bebidas 1" />
         <activity
-            android:label="Comidas1"
             android:name=".comidaActivity1"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Comidas 1" />
         <activity
             android:name=".ResActivity4"
             android:exported="false"
