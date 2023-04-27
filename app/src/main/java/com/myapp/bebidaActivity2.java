@@ -36,19 +36,19 @@ public class bebidaActivity2 extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
 
                 if(position==0){
-                    Intent intent = new Intent(bebidaActivity2.this, ResActivity1.class);
+                    Intent intent = new Intent(bebidaActivity2.this, bebida1bActivity.class);
                     startActivity(intent);
                 }
                 if (position==1){
-                    Intent intent = new Intent(bebidaActivity2.this, ResActivity2.class);
+                    Intent intent = new Intent(bebidaActivity2.this, bebida2bActivity.class);
                     startActivity(intent);
                 }
                 if (position==2){
-                    Intent intent = new Intent(bebidaActivity2.this, ResActivity3.class);
+                    Intent intent = new Intent(bebidaActivity2.this, bebida3bActivity.class);
                     startActivity(intent);
                 }
                 if (position==3){
-                    Intent intent = new Intent(bebidaActivity2.this, ResActivity4.class);
+                    Intent intent = new Intent(bebidaActivity2.this, bebida4bActivity.class);
                     startActivity(intent);
                 }
             }

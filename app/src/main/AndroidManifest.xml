@@ -12,21 +12,69 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".complemento4bActivity"
+            android:exported="false"
+            android:label="Complemento 4 del Restaurante b"/>
+        <activity
+            android:name=".complemento3bActivity"
+            android:exported="false"
+            android:label="Complemento 3 del Restaurante b"/>
+        <activity
+            android:name=".complemento2bActivity"
+            android:exported="false"
+            android:label="Complemento 2 del Restaurante b"/>
+        <activity
+            android:name=".complemento1bActivity"
+            android:exported="false"
+            android:label="Complemento 1 del Restaurante b"/>
+        <activity
+            android:name=".bebida4bActivity"
+            android:exported="false"
+            android:label="Bebida 4 del Restaurante b"/>
+        <activity
+            android:name=".bebida3bActivity"
+            android:exported="false"
+            android:label="Bebida 3 del Restaurante b"/>
+        <activity
+            android:name=".bebida2bActivity"
+            android:exported="false"
+            android:label="Bebida 2 del Restaurante b"/>
+        <activity
+            android:name=".bebida1bActivity"
+            android:exported="false"
+            android:label="Bebida 1 del Restaurante b"/>
+        <activity
+            android:name=".comida4bActivity"
+            android:exported="false"
+            android:label="Comida 4 del Restaurante b"/>
+        <activity
+            android:name=".comida3bActivity"
+            android:exported="false"
+            android:label="Comida 3 del Restaurante b"/>
+        <activity
+            android:name=".comida2bActivity"
+            android:exported="false"
+            android:label="Comida 2 del Restaurante b"/>
+        <activity
+            android:name=".comida1bActivity"
+            android:exported="false"
+            android:label="Comida 1 del Restaurante b"/>
+        <activity
             android:name=".complemento4aActivity"
             android:exported="false"
-            android:label="Complemento 4 del Restaurante A"/>
+            android:label="Complemento 4 del Restaurante A" />
         <activity
             android:name=".complemento3aActivity"
             android:exported="false"
-            android:label="Complemento 3 del Restaurante A"/>
+            android:label="Complemento 3 del Restaurante A" />
         <activity
             android:name=".complemento2aActivity"
             android:exported="false"
-            android:label="Complemento 2 del Restaurante A"/>
+            android:label="Complemento 2 del Restaurante A" />
         <activity
             android:name=".complemento1aActivity"
             android:exported="false"
-            android:label="Complemento 1 del Restaurante A"/>
+            android:label="Complemento 1 del Restaurante A" />
         <activity
             android:name=".bebida4aActivity"
             android:exported="false"

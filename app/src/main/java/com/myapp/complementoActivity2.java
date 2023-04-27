@@ -37,19 +37,19 @@ public class complementoActivity2 extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
 
                 if(position==0){
-                    Intent intent = new Intent(complementoActivity2.this, ResActivity1.class);
+                    Intent intent = new Intent(complementoActivity2.this, complemento1bActivity.class);
                     startActivity(intent);
                 }
                 if (position==1){
-                    Intent intent = new Intent(complementoActivity2.this, ResActivity2.class);
+                    Intent intent = new Intent(complementoActivity2.this, complemento2bActivity.class);
                     startActivity(intent);
                 }
                 if (position==2){
-                    Intent intent = new Intent(complementoActivity2.this, ResActivity3.class);
+                    Intent intent = new Intent(complementoActivity2.this, complemento3bActivity.class);
                     startActivity(intent);
                 }
                 if (position==3){
-                    Intent intent = new Intent(complementoActivity2.this, ResActivity4.class);
+                    Intent intent = new Intent(complementoActivity2.this, complemento4bActivity.class);
                     startActivity(intent);
                 }
             }
