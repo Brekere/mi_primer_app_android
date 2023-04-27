@@ -7,12 +7,12 @@ import androidx.viewpager.widget.ViewPager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
-
 public class ResActivity1 extends AppCompatActivity {
-
     TabLayout tabLayout;
     ViewPager viewPager;
     TabItem tabComidas;
@@ -35,25 +35,21 @@ public class ResActivity1 extends AppCompatActivity {
 
         viewPagerAdapter =  new ViewPagerAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(viewPagerAdapter);
-
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
                 if (tab.getPosition()==0) {
-                    /**Intent intent = new Intent(ResActivity1.this, MainActivity.class);
-                    startActivity(intent);**/
-                    viewPagerAdapter.notifyDataSetChanged();
+                    Intent intent = new Intent(ResActivity1.this, comidaActivity1.class);
+                    startActivity(intent);
                 }
                 if (tab.getPosition()==1) {
-                    /**Intent intent = new Intent(ResActivity1.this, MainActivity.class);
-                     startActivity(intent);**/
-                    viewPagerAdapter.notifyDataSetChanged();
+                    Intent intent = new Intent(ResActivity1.this, bebidaActivity1.class);
+                     startActivity(intent);
                 }
-                if (tab.getPosition()==1) {
-                    /**Intent intent = new Intent(ResActivity1.this, MainActivity.class);
-                     startActivity(intent);**/
-                    viewPagerAdapter.notifyDataSetChanged();
+                if (tab.getPosition()==2) {
+                    Intent intent = new Intent(ResActivity1.this, complementoActivity1.class);
+                    startActivity(intent);
                 }
             }
 

@@ -12,6 +12,18 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:label="Complementos1"
+            android:name=".complementoActivity1"
+            android:exported="false" />
+        <activity
+            android:label="Bebidas1"
+            android:name=".bebidaActivity1"
+            android:exported="false" />
+        <activity
+            android:label="Comidas1"
+            android:name=".comidaActivity1"
+            android:exported="false" />
+        <activity
             android:name=".ResActivity4"
             android:exported="false"
             android:label="@string/Restaurante_D" />
